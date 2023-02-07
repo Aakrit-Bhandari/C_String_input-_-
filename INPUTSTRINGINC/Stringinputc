@@ -1,0 +1,14 @@
+#include<stdio.h>
+void displaystring(char str[])
+{
+    printf("String is:");
+    puts(str);
+}
+int main()
+{
+    char str[50];
+    printf("Enter string:");
+    fgets(str,sizeof(str),stdin);
+    displaystring(str);
+    return 0;
+}
